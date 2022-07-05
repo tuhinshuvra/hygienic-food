@@ -4,6 +4,7 @@ body {
 }
 
 h1 {
+    text-transform: capitalize;
     font-size: 60px;
     color: #575757;
     font-weight: 800;
@@ -15,11 +16,12 @@ h2 {
     font-weight: 800;
 }
 
-h3 {
+h6 {
     font-size: 40px;
-    color: black;
-    font-weight: 800;
+    color: white;
+    font-weight: 400;
 }
+
 
 p {
     font-size: 18px;
@@ -28,6 +30,10 @@ p {
     line-height: 30px;
     margin-bottom: 50px;
 
+}
+
+.orange-color {
+    color: orange;
 }
 
 .hero {
@@ -133,3 +139,19 @@ p {
 }
 
 /* subscription seciton end */
+
+/* footer seciton start */
+footer {
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    padding: 15px 0;
+}
+
+
+.f-h3,
+.f-p {
+    color: white;
+}
+
+/* footer seciton end */
