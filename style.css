@@ -62,9 +62,10 @@ p {
 
 .about {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+
 }
 
 .about-img {
@@ -80,10 +81,14 @@ p {
 
 /* recepies seciton start */
 
-
+.recipies {}
 
 .recipies-txt {
-    justify-content: center;
+    text-align: center;
+}
+
+.recipies-txt p {
+    margin: 0 15%;
 }
 
 .recipies-img {
@@ -99,7 +104,7 @@ p {
     margin: 5%;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 1px gray;
+    box-shadow: 0px 0px 10px .1px rgba(128, 128, 128, 0.368);
 }
 
 .reci-img-2 {
@@ -108,7 +113,7 @@ p {
     margin: 5%;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 1px gray;
+    box-shadow: 0px 0px 10px .1px rgba(128, 128, 128, 0.368);
 }
 
 /* recepies seciton end */
